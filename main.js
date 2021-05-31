@@ -9,6 +9,6 @@ app.get('/hello',(rep,res)=>{
     res.sendFile(__dirname + '/HTML/hello.html');
 })
 
-const POST = 3000;
-app.listen(process.env.POST || POST);
+const PORT = 3000;
+app.listen(process.env.PORT || PORT);
 console.log('Sever is running !')
